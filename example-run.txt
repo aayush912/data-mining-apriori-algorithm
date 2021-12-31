@@ -1,0 +1,921 @@
+
+==Frequent itemsets (min_sup=1.0%)
+
+('total_aids_cases=Low',) 83.8388%
+('total_hiv_cases=Low',) 80.2243%
+('total_aids_cases=Low', 'total_hiv_cases=Low') 79.1857%
+('sex=Female',) 50.0208%
+('sex=Male',) 49.9792%
+('sex=Female', 'total_aids_cases=Low') 45.0769%
+('sex=Female', 'total_hiv_cases=Low') 44.6199%
+('sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 44.0798%
+('sex=Male', 'total_aids_cases=Low') 38.7619%
+('sex=Male', 'total_hiv_cases=Low') 35.6045%
+('sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 35.1059%
+('ethnicity=Native American',) 14.2916%
+('ethnicity=Unknown',) 14.2916%
+('total_hiv_cases=High',) 14.2916%
+('ethnicity=Multiracial',) 14.2916%
+('ethnicity=Asian/Pacific Islander',) 14.2916%
+('ethnicity=White',) 14.2916%
+('ethnicity=Hispanic',) 14.2916%
+('ethnicity=Native American', 'total_hiv_cases=Low') 14.2916%
+('ethnicity=Native American', 'total_aids_cases=Low') 14.2916%
+('ethnicity=Unknown', 'total_aids_cases=Low') 14.2916%
+('ethnicity=Unknown', 'total_hiv_cases=Low') 14.2916%
+('ethnicity=Multiracial', 'total_aids_cases=Low') 14.2916%
+('ethnicity=Native American', 'total_aids_cases=Low', 'total_hiv_cases=Low') 14.2916%
+('ethnicity=Unknown', 'total_aids_cases=Low', 'total_hiv_cases=Low') 14.2916%
+('ethnicity=Black',) 14.2501%
+('ethnicity=Multiracial', 'total_hiv_cases=Low') 14.2501%
+('ethnicity=Multiracial', 'total_aids_cases=Low', 'total_hiv_cases=Low') 14.2501%
+('ethnicity=Asian/Pacific Islander', 'total_aids_cases=Low') 14.0424%
+('ethnicity=Asian/Pacific Islander', 'total_hiv_cases=Low') 13.4607%
+('ethnicity=Asian/Pacific Islander', 'total_aids_cases=Low', 'total_hiv_cases=Low') 13.4607%
+('ethnicity=White', 'total_aids_cases=Low') 11.7574%
+('sex=Male', 'total_hiv_cases=High') 10.8434%
+('ethnicity=White', 'total_hiv_cases=Low') 10.7187%
+('ethnicity=White', 'total_aids_cases=Low', 'total_hiv_cases=Low') 10.5941%
+('total_aids_cases=High',) 10.2617%
+('total_aids_cases=High', 'total_hiv_cases=High') 9.8047%
+('ethnicity=Hispanic', 'total_aids_cases=Low') 8.3922%
+('sex=Male', 'total_aids_cases=High') 7.4782%
+('sex=Male', 'total_aids_cases=High', 'total_hiv_cases=High') 7.1874%
+('ethnicity=Native American', 'sex=Female') 7.1458%
+('ethnicity=Unknown', 'sex=Female') 7.1458%
+('ethnicity=Unknown', 'sex=Male') 7.1458%
+('ethnicity=Multiracial', 'sex=Female') 7.1458%
+('ethnicity=Multiracial', 'sex=Male') 7.1458%
+('ethnicity=Asian/Pacific Islander', 'sex=Male') 7.1458%
+('ethnicity=Asian/Pacific Islander', 'sex=Female') 7.1458%
+('ethnicity=White', 'sex=Female') 7.1458%
+('ethnicity=White', 'sex=Male') 7.1458%
+('ethnicity=Hispanic', 'sex=Female') 7.1458%
+('ethnicity=Black', 'sex=Female') 7.1458%
+('ethnicity=Native American', 'sex=Male') 7.1458%
+('ethnicity=Hispanic', 'sex=Male') 7.1458%
+('ethnicity=Native American', 'sex=Female', 'total_hiv_cases=Low') 7.1458%
+('ethnicity=Native American', 'sex=Female', 'total_aids_cases=Low') 7.1458%
+('ethnicity=Unknown', 'sex=Female', 'total_aids_cases=Low') 7.1458%
+('ethnicity=Unknown', 'sex=Female', 'total_hiv_cases=Low') 7.1458%
+('ethnicity=Unknown', 'sex=Male', 'total_hiv_cases=Low') 7.1458%
+('ethnicity=Unknown', 'sex=Male', 'total_aids_cases=Low') 7.1458%
+('ethnicity=Multiracial', 'sex=Female', 'total_aids_cases=Low') 7.1458%
+('ethnicity=Multiracial', 'sex=Female', 'total_hiv_cases=Low') 7.1458%
+('ethnicity=Multiracial', 'sex=Male', 'total_aids_cases=Low') 7.1458%
+('ethnicity=Asian/Pacific Islander', 'sex=Female', 'total_aids_cases=Low') 7.1458%
+('ethnicity=Asian/Pacific Islander', 'sex=Female', 'total_hiv_cases=Low') 7.1458%
+('ethnicity=Native American', 'sex=Male', 'total_aids_cases=Low') 7.1458%
+('ethnicity=Native American', 'sex=Male', 'total_hiv_cases=Low') 7.1458%
+('ethnicity=Native American', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 7.1458%
+('ethnicity=Unknown', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 7.1458%
+('ethnicity=Unknown', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 7.1458%
+('ethnicity=Multiracial', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 7.1458%
+('ethnicity=Asian/Pacific Islander', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 7.1458%
+('ethnicity=Native American', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 7.1458%
+('ethnicity=Black', 'sex=Male') 7.1043%
+('ethnicity=Multiracial', 'sex=Male', 'total_hiv_cases=Low') 7.1043%
+('ethnicity=Multiracial', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 7.1043%
+('ethnicity=White', 'sex=Female', 'total_aids_cases=Low') 7.0212%
+('ethnicity=White', 'sex=Female', 'total_hiv_cases=Low') 7.0212%
+('ethnicity=White', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 7.0212%
+('ethnicity=Hispanic', 'total_hiv_cases=Low') 6.9381%
+('ethnicity=Asian/Pacific Islander', 'sex=Male', 'total_aids_cases=Low') 6.8966%
+('ethnicity=Black', 'total_aids_cases=Low') 6.7719%
+('ethnicity=Black', 'total_hiv_cases=High') 6.5226%
+('ethnicity=Hispanic', 'total_aids_cases=Low', 'total_hiv_cases=Low') 6.4396%
+('ethnicity=Asian/Pacific Islander', 'sex=Male', 'total_hiv_cases=Low') 6.3149%
+('ethnicity=Asian/Pacific Islander', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 6.3149%
+('ethnicity=Black', 'total_hiv_cases=Low') 6.2734%
+('total_aids_cases=Medium',) 5.8995%
+('ethnicity=Black', 'total_aids_cases=Low', 'total_hiv_cases=Low') 5.8579%
+('ethnicity=Black', 'total_aids_cases=High') 5.7333%
+('total_hiv_cases=Medium',) 5.484%
+('ethnicity=Black', 'total_aids_cases=High', 'total_hiv_cases=High') 5.4425%
+('ethnicity=Hispanic', 'sex=Female', 'total_aids_cases=Low') 5.4425%
+('ethnicity=Hispanic', 'total_hiv_cases=High') 5.0686%
+('ethnicity=Hispanic', 'sex=Female', 'total_hiv_cases=Low') 5.0686%
+('ethnicity=White', 'sex=Male', 'total_aids_cases=Low') 4.7362%
+('ethnicity=Hispanic', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 4.7362%
+('ethnicity=Hispanic', 'sex=Male', 'total_hiv_cases=High') 4.1545%
+('ethnicity=Black', 'sex=Female', 'total_aids_cases=Low') 4.0299%
+('ethnicity=Black', 'sex=Male', 'total_hiv_cases=High') 3.9884%
+('ethnicity=Black', 'sex=Female', 'total_hiv_cases=Low') 3.9468%
+('sex=Male', 'total_aids_cases=Medium') 3.7391%
+('ethnicity=Black', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 3.7391%
+('ethnicity=White', 'sex=Male', 'total_hiv_cases=Low') 3.6975%
+('ethnicity=Black', 'sex=Male', 'total_aids_cases=High') 3.5729%
+('ethnicity=White', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 3.5729%
+('sex=Male', 'total_hiv_cases=Medium') 3.5314%
+('ethnicity=Hispanic', 'total_aids_cases=High') 3.4898%
+('sex=Female', 'total_hiv_cases=High') 3.4483%
+('ethnicity=Hispanic', 'total_aids_cases=High', 'total_hiv_cases=High') 3.3652%
+('ethnicity=Black', 'sex=Male', 'total_aids_cases=High', 'total_hiv_cases=High') 3.3652%
+('total_aids_cases=Low', 'total_hiv_cases=Medium') 3.2821%
+('total_aids_cases=Medium', 'total_hiv_cases=High') 3.1159%
+('ethnicity=Hispanic', 'sex=Male', 'total_aids_cases=Low') 2.9497%
+('ethnicity=Hispanic', 'sex=Male', 'total_aids_cases=High') 2.8666%
+('ethnicity=Hispanic', 'sex=Male', 'total_aids_cases=High', 'total_hiv_cases=High') 2.8251%
+('sex=Female', 'total_aids_cases=High') 2.7835%
+('ethnicity=Black', 'sex=Male', 'total_aids_cases=Low') 2.742%
+('sex=Female', 'total_aids_cases=High', 'total_hiv_cases=High') 2.6174%
+('ethnicity=White', 'total_hiv_cases=High') 2.5343%
+('ethnicity=Black', 'sex=Female', 'total_hiv_cases=High') 2.5343%
+('ethnicity=White', 'sex=Male', 'total_hiv_cases=High') 2.5343%
+('ethnicity=Hispanic', 'total_aids_cases=Medium') 2.4096%
+('neighbourhood=Stapleton - St. George',) 2.3265%
+('neighbourhood=Upper Westside',) 2.3265%
+('neighbourhood=Willowbrook',) 2.3265%
+('neighbourhood=East Flatbush - Flatbush',) 2.3265%
+('neighbourhood=Southwest Queens',) 2.3265%
+('neighbourhood=Fordham - Bronx Park',) 2.3265%
+('neighbourhood=Chelsea - Clinton',) 2.3265%
+('neighbourhood=Coney Island - Sheepshead Bay',) 2.3265%
+('neighbourhood=Unknown',) 2.3265%
+('neighbourhood=Flushing - Clearview',) 2.3265%
+('neighbourhood=Gramercy Park - Murray Hill',) 2.3265%
+('neighbourhood=Crotona - Tremont',) 2.3265%
+('neighbourhood=Jamaica',) 2.3265%
+('neighbourhood=Union Square - Lower Eastside',) 2.3265%
+('neighbourhood=Borough Park',) 2.3265%
+('neighbourhood=Greenwich Village - SoHo',) 2.3265%
+('neighbourhood=Downtown - Heights - Park Slope',) 2.3265%
+('neighbourhood=Pelham - Throgs Neck',) 2.3265%
+('neighbourhood=Sunset Park',) 2.3265%
+('neighbourhood=South Beach - Tottenville',) 2.3265%
+('neighbourhood=Central Harlem - Morningside Heights',) 2.3265%
+('neighbourhood=West Queens',) 2.3265%
+('neighbourhood=Bedford Stuyvesant - Crown Heights',) 2.3265%
+('neighbourhood=Port Richmond',) 2.3265%
+('neighbourhood=Fresh Meadows',) 2.3265%
+('neighbourhood=Bayside - Little Neck',) 2.3265%
+('neighbourhood=High Bridge - Morrisania',) 2.3265%
+('neighbourhood=Bensonhurst - Bay Ridge',) 2.3265%
+('neighbourhood=Southeast Queens',) 2.3265%
+('neighbourhood=Upper Eastside',) 2.3265%
+('neighbourhood=Kingsbridge - Riverdale',) 2.3265%
+('neighbourhood=East New York',) 2.3265%
+('neighbourhood=Northeast Bronx',) 2.3265%
+('neighbourhood=Washington Heights - Inwood',) 2.3265%
+('neighbourhood=Canarsie - Flatlands',) 2.3265%
+('neighbourhood=Hunts Point - Mott Haven',) 2.3265%
+('neighbourhood=Lower Manhattan',) 2.3265%
+('neighbourhood=Williamsburg - Bushwick',) 2.3265%
+('neighbourhood=East Harlem',) 2.3265%
+('neighbourhood=Rockaway',) 2.3265%
+('neighbourhood=Long Island City - Astoria',) 2.3265%
+('neighbourhood=Ridgewood - Forest Hills',) 2.3265%
+('neighbourhood=Willowbrook', 'total_hiv_cases=Low') 2.3265%
+('neighbourhood=Willowbrook', 'total_aids_cases=Low') 2.3265%
+('neighbourhood=Flushing - Clearview', 'total_aids_cases=Low') 2.3265%
+('neighbourhood=Port Richmond', 'total_aids_cases=Low') 2.3265%
+('neighbourhood=Fresh Meadows', 'total_hiv_cases=Low') 2.3265%
+('neighbourhood=Fresh Meadows', 'total_aids_cases=Low') 2.3265%
+('neighbourhood=Bayside - Little Neck', 'total_hiv_cases=Low') 2.3265%
+('neighbourhood=Bayside - Little Neck', 'total_aids_cases=Low') 2.3265%
+('neighbourhood=Bensonhurst - Bay Ridge', 'total_aids_cases=Low') 2.3265%
+('neighbourhood=Willowbrook', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.3265%
+('sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Medium') 2.3265%
+('ethnicity=Black', 'sex=Male', 'total_hiv_cases=Low') 2.3265%
+('neighbourhood=Fresh Meadows', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.3265%
+('neighbourhood=Bayside - Little Neck', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.3265%
+('sex=Male', 'total_aids_cases=Medium', 'total_hiv_cases=High') 2.3265%
+('neighbourhood=Greenpoint',) 2.285%
+('neighbourhood=South Beach - Tottenville', 'total_hiv_cases=Low') 2.285%
+('neighbourhood=South Beach - Tottenville', 'total_aids_cases=Low') 2.285%
+('ethnicity=Hispanic', 'total_hiv_cases=Medium') 2.285%
+('neighbourhood=Lower Manhattan', 'total_aids_cases=Low') 2.285%
+('neighbourhood=South Beach - Tottenville', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.285%
+('neighbourhood=Stapleton - St. George', 'total_aids_cases=Low') 2.2435%
+('neighbourhood=Port Richmond', 'total_hiv_cases=Low') 2.2435%
+('neighbourhood=Kingsbridge - Riverdale', 'total_aids_cases=Low') 2.2435%
+('neighbourhood=Port Richmond', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.2435%
+('neighbourhood=Stapleton - St. George', 'total_hiv_cases=Low') 2.2019%
+('neighbourhood=Coney Island - Sheepshead Bay', 'total_aids_cases=Low') 2.2019%
+('neighbourhood=Bensonhurst - Bay Ridge', 'total_hiv_cases=Low') 2.2019%
+('neighbourhood=Upper Eastside', 'total_aids_cases=Low') 2.2019%
+('neighbourhood=Bensonhurst - Bay Ridge', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.2019%
+('neighbourhood=Kingsbridge - Riverdale', 'total_hiv_cases=Low') 2.1604%
+('neighbourhood=Lower Manhattan', 'total_hiv_cases=Low') 2.1604%
+('sex=Female', 'total_aids_cases=Medium') 2.1604%
+('neighbourhood=Stapleton - St. George', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.1604%
+('ethnicity=Black', 'sex=Female', 'total_aids_cases=High') 2.1604%
+('neighbourhood=Kingsbridge - Riverdale', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.1604%
+('neighbourhood=Lower Manhattan', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.1604%
+('neighbourhood=Greenpoint', 'total_aids_cases=Low') 2.1188%
+('neighbourhood=Borough Park', 'total_aids_cases=Low') 2.1188%
+('neighbourhood=Sunset Park', 'total_hiv_cases=Low') 2.1188%
+('neighbourhood=Sunset Park', 'total_aids_cases=Low') 2.1188%
+('neighbourhood=Flushing - Clearview', 'total_hiv_cases=Low') 2.1188%
+('neighbourhood=Ridgewood - Forest Hills', 'total_aids_cases=Low') 2.1188%
+('neighbourhood=Flushing - Clearview', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.1188%
+('ethnicity=Black', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.1188%
+('neighbourhood=Southwest Queens', 'total_aids_cases=Low') 2.0773%
+('neighbourhood=Greenwich Village - SoHo', 'total_aids_cases=Low') 2.0773%
+('neighbourhood=Ridgewood - Forest Hills', 'total_hiv_cases=Low') 2.0773%
+('ethnicity=Black', 'sex=Female', 'total_aids_cases=High', 'total_hiv_cases=High') 2.0773%
+('neighbourhood=Gramercy Park - Murray Hill', 'total_aids_cases=Low') 2.0357%
+('neighbourhood=Southeast Queens', 'total_aids_cases=Low') 2.0357%
+('neighbourhood=Rockaway', 'total_aids_cases=Low') 2.0357%
+('neighbourhood=Upper Eastside', 'total_hiv_cases=Low') 2.0357%
+('neighbourhood=Sunset Park', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.0357%
+('neighbourhood=Upper Eastside', 'total_aids_cases=Low', 'total_hiv_cases=Low') 2.0357%
+('neighbourhood=Greenwich Village - SoHo', 'total_hiv_cases=Low') 1.9942%
+('neighbourhood=Southeast Queens', 'total_hiv_cases=Low') 1.9942%
+('neighbourhood=Southeast Queens', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.9942%
+('neighbourhood=Ridgewood - Forest Hills', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.9942%
+('neighbourhood=Greenpoint', 'total_hiv_cases=Low') 1.9526%
+('neighbourhood=Coney Island - Sheepshead Bay', 'total_hiv_cases=Low') 1.9526%
+('neighbourhood=Borough Park', 'total_hiv_cases=Low') 1.9526%
+('neighbourhood=Canarsie - Flatlands', 'total_aids_cases=Low') 1.9526%
+('sex=Female', 'total_hiv_cases=Medium') 1.9526%
+('neighbourhood=Rockaway', 'total_hiv_cases=Low') 1.9526%
+('neighbourhood=Long Island City - Astoria', 'total_aids_cases=Low') 1.9526%
+('neighbourhood=Gramercy Park - Murray Hill', 'total_hiv_cases=Low') 1.9111%
+('neighbourhood=Canarsie - Flatlands', 'total_hiv_cases=Low') 1.9111%
+('neighbourhood=Greenpoint', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.9111%
+('neighbourhood=Gramercy Park - Murray Hill', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.9111%
+('neighbourhood=Borough Park', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.9111%
+('neighbourhood=Greenwich Village - SoHo', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.9111%
+('neighbourhood=Rockaway', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.9111%
+('neighbourhood=Canarsie - Flatlands', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.9111%
+('neighbourhood=Jamaica', 'total_aids_cases=Low') 1.8695%
+('neighbourhood=Coney Island - Sheepshead Bay', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.8695%
+('ethnicity=Hispanic', 'sex=Male', 'total_hiv_cases=Low') 1.8695%
+('neighbourhood=East Flatbush - Flatbush', 'total_aids_cases=Low') 1.828%
+('neighbourhood=Southwest Queens', 'total_hiv_cases=Low') 1.828%
+('neighbourhood=Union Square - Lower Eastside', 'total_aids_cases=Low') 1.828%
+('neighbourhood=Upper Westside', 'total_hiv_cases=Low') 1.7865%
+('neighbourhood=Chelsea - Clinton', 'total_aids_cases=Low') 1.7865%
+('neighbourhood=Downtown - Heights - Park Slope', 'total_aids_cases=Low') 1.7865%
+('neighbourhood=Northeast Bronx', 'total_hiv_cases=Low') 1.7865%
+('neighbourhood=Northeast Bronx', 'total_aids_cases=Low') 1.7865%
+('neighbourhood=Southwest Queens', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.7865%
+('neighbourhood=Upper Westside', 'total_aids_cases=Low') 1.7449%
+('neighbourhood=Jamaica', 'total_hiv_cases=Low') 1.7449%
+('neighbourhood=Downtown - Heights - Park Slope', 'total_hiv_cases=Low') 1.7449%
+('neighbourhood=East New York', 'total_aids_cases=Low') 1.7449%
+('total_aids_cases=Medium', 'total_hiv_cases=Medium') 1.7449%
+('ethnicity=Black', 'total_aids_cases=Medium') 1.7449%
+('neighbourhood=Long Island City - Astoria', 'total_hiv_cases=Low') 1.7449%
+('neighbourhood=Jamaica', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.7449%
+('neighbourhood=Long Island City - Astoria', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.7449%
+('neighbourhood=East Flatbush - Flatbush', 'total_hiv_cases=Low') 1.7034%
+('neighbourhood=Union Square - Lower Eastside', 'total_hiv_cases=Low') 1.7034%
+('neighbourhood=Hunts Point - Mott Haven', 'total_aids_cases=Low') 1.7034%
+('neighbourhood=Upper Westside', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.7034%
+('neighbourhood=East Flatbush - Flatbush', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.7034%
+('neighbourhood=Downtown - Heights - Park Slope', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.7034%
+('neighbourhood=Northeast Bronx', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.7034%
+('ethnicity=Hispanic', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.7034%
+('neighbourhood=Fordham - Bronx Park', 'total_aids_cases=Low') 1.6618%
+('neighbourhood=Chelsea - Clinton', 'total_hiv_cases=Low') 1.6618%
+('neighbourhood=Crotona - Tremont', 'total_aids_cases=Low') 1.6618%
+('neighbourhood=Crotona - Tremont', 'total_hiv_cases=Low') 1.6618%
+('neighbourhood=Bedford Stuyvesant - Crown Heights', 'total_aids_cases=Low') 1.6618%
+('neighbourhood=Hunts Point - Mott Haven', 'total_hiv_cases=Low') 1.6618%
+('neighbourhood=Williamsburg - Bushwick', 'total_aids_cases=Low') 1.6618%
+('neighbourhood=Central Harlem - Morningside Heights', 'total_aids_cases=Low') 1.6618%
+('neighbourhood=High Bridge - Morrisania', 'total_hiv_cases=Low') 1.6618%
+('neighbourhood=High Bridge - Morrisania', 'total_aids_cases=Low') 1.6618%
+('neighbourhood=East Harlem', 'total_aids_cases=Low') 1.6618%
+('neighbourhood=Chelsea - Clinton', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.6618%
+('neighbourhood=Crotona - Tremont', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.6618%
+('neighbourhood=Union Square - Lower Eastside', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.6618%
+('neighbourhood=Hunts Point - Mott Haven', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.6618%
+('neighbourhood=High Bridge - Morrisania', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.6618%
+('neighbourhood=Fordham - Bronx Park', 'total_hiv_cases=Low') 1.6203%
+('neighbourhood=Bedford Stuyvesant - Crown Heights', 'total_hiv_cases=Low') 1.6203%
+('neighbourhood=East New York', 'total_hiv_cases=Low') 1.6203%
+('neighbourhood=Washington Heights - Inwood', 'total_aids_cases=Low') 1.6203%
+('neighbourhood=Pelham - Throgs Neck', 'total_aids_cases=Low') 1.6203%
+('neighbourhood=Pelham - Throgs Neck', 'total_hiv_cases=Low') 1.6203%
+('neighbourhood=East Harlem', 'total_hiv_cases=Low') 1.6203%
+('neighbourhood=Fordham - Bronx Park', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.6203%
+('neighbourhood=East New York', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.6203%
+('neighbourhood=Bedford Stuyvesant - Crown Heights', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.5787%
+('neighbourhood=Pelham - Throgs Neck', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.5787%
+('neighbourhood=West Queens', 'total_aids_cases=Low') 1.5372%
+('ethnicity=White', 'total_aids_cases=Medium') 1.5372%
+('neighbourhood=Williamsburg - Bushwick', 'total_hiv_cases=Low') 1.5372%
+('neighbourhood=Central Harlem - Morningside Heights', 'total_hiv_cases=Low') 1.5372%
+('neighbourhood=Williamsburg - Bushwick', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.5372%
+('neighbourhood=Central Harlem - Morningside Heights', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.5372%
+('neighbourhood=East Harlem', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.5372%
+('neighbourhood=Washington Heights - Inwood', 'total_hiv_cases=Low') 1.4956%
+('neighbourhood=Washington Heights - Inwood', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.4956%
+('neighbourhood=West Queens', 'total_hiv_cases=Low') 1.4541%
+('ethnicity=Black', 'total_hiv_cases=Medium') 1.4541%
+('neighbourhood=West Queens', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.4125%
+('ethnicity=White', 'sex=Male', 'total_aids_cases=Medium') 1.4125%
+('ethnicity=Hispanic', 'total_aids_cases=Low', 'total_hiv_cases=Medium') 1.4125%
+('total_aids_cases=Low', 'total_hiv_cases=High') 1.371%
+('sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=High') 1.3295%
+('ethnicity=Hispanic', 'sex=Male', 'total_aids_cases=Medium') 1.3295%
+('neighbourhood=Unknown', 'total_aids_cases=Low') 1.2879%
+('neighbourhood=Unknown', 'total_hiv_cases=Low') 1.2048%
+('neighbourhood=Stapleton - St. George', 'sex=Female') 1.1633%
+('neighbourhood=Upper Westside', 'sex=Female') 1.1633%
+('neighbourhood=Willowbrook', 'sex=Male') 1.1633%
+('neighbourhood=East Flatbush - Flatbush', 'sex=Male') 1.1633%
+('neighbourhood=East Flatbush - Flatbush', 'sex=Female') 1.1633%
+('neighbourhood=Southwest Queens', 'sex=Female') 1.1633%
+('neighbourhood=Fordham - Bronx Park', 'sex=Male') 1.1633%
+('neighbourhood=Greenpoint', 'sex=Female') 1.1633%
+('neighbourhood=Chelsea - Clinton', 'sex=Female') 1.1633%
+('neighbourhood=Coney Island - Sheepshead Bay', 'sex=Male') 1.1633%
+('neighbourhood=Unknown', 'sex=Male') 1.1633%
+('neighbourhood=Flushing - Clearview', 'sex=Male') 1.1633%
+('neighbourhood=Gramercy Park - Murray Hill', 'sex=Male') 1.1633%
+('neighbourhood=Crotona - Tremont', 'sex=Female') 1.1633%
+('neighbourhood=Willowbrook', 'sex=Female') 1.1633%
+('neighbourhood=Jamaica', 'sex=Female') 1.1633%
+('neighbourhood=Fordham - Bronx Park', 'sex=Female') 1.1633%
+('neighbourhood=Union Square - Lower Eastside', 'sex=Female') 1.1633%
+('neighbourhood=Borough Park', 'sex=Male') 1.1633%
+('neighbourhood=Southwest Queens', 'sex=Male') 1.1633%
+('neighbourhood=Greenwich Village - SoHo', 'sex=Male') 1.1633%
+('neighbourhood=Downtown - Heights - Park Slope', 'sex=Male') 1.1633%
+('neighbourhood=Pelham - Throgs Neck', 'sex=Female') 1.1633%
+('neighbourhood=Sunset Park', 'sex=Female') 1.1633%
+('neighbourhood=South Beach - Tottenville', 'sex=Female') 1.1633%
+('neighbourhood=Central Harlem - Morningside Heights', 'sex=Female') 1.1633%
+('neighbourhood=Chelsea - Clinton', 'sex=Male') 1.1633%
+('neighbourhood=Greenwich Village - SoHo', 'sex=Female') 1.1633%
+('neighbourhood=West Queens', 'sex=Male') 1.1633%
+('neighbourhood=Gramercy Park - Murray Hill', 'sex=Female') 1.1633%
+('neighbourhood=Unknown', 'sex=Female') 1.1633%
+('neighbourhood=Stapleton - St. George', 'sex=Male') 1.1633%
+('neighbourhood=Bedford Stuyvesant - Crown Heights', 'sex=Female') 1.1633%
+('neighbourhood=Port Richmond', 'sex=Male') 1.1633%
+('neighbourhood=Fresh Meadows', 'sex=Female') 1.1633%
+('neighbourhood=Bayside - Little Neck', 'sex=Male') 1.1633%
+('neighbourhood=High Bridge - Morrisania', 'sex=Male') 1.1633%
+('neighbourhood=Flushing - Clearview', 'sex=Female') 1.1633%
+('neighbourhood=Sunset Park', 'sex=Male') 1.1633%
+('neighbourhood=Crotona - Tremont', 'sex=Male') 1.1633%
+('neighbourhood=Bensonhurst - Bay Ridge', 'sex=Female') 1.1633%
+('neighbourhood=Coney Island - Sheepshead Bay', 'sex=Female') 1.1633%
+('neighbourhood=Borough Park', 'sex=Female') 1.1633%
+('neighbourhood=Upper Westside', 'sex=Male') 1.1633%
+('neighbourhood=Southeast Queens', 'sex=Male') 1.1633%
+('neighbourhood=Upper Eastside', 'sex=Male') 1.1633%
+('neighbourhood=Kingsbridge - Riverdale', 'sex=Female') 1.1633%
+('neighbourhood=East New York', 'sex=Female') 1.1633%
+('neighbourhood=Jamaica', 'sex=Male') 1.1633%
+('neighbourhood=Northeast Bronx', 'sex=Male') 1.1633%
+('neighbourhood=Washington Heights - Inwood', 'sex=Female') 1.1633%
+('neighbourhood=West Queens', 'sex=Female') 1.1633%
+('neighbourhood=Canarsie - Flatlands', 'sex=Male') 1.1633%
+('neighbourhood=Hunts Point - Mott Haven', 'sex=Female') 1.1633%
+('neighbourhood=Northeast Bronx', 'sex=Female') 1.1633%
+('neighbourhood=Port Richmond', 'sex=Female') 1.1633%
+('neighbourhood=Lower Manhattan', 'sex=Male') 1.1633%
+('neighbourhood=Bayside - Little Neck', 'sex=Female') 1.1633%
+('neighbourhood=Bensonhurst - Bay Ridge', 'sex=Male') 1.1633%
+('neighbourhood=Southeast Queens', 'sex=Female') 1.1633%
+('neighbourhood=Central Harlem - Morningside Heights', 'sex=Male') 1.1633%
+('neighbourhood=Williamsburg - Bushwick', 'sex=Female') 1.1633%
+('neighbourhood=Union Square - Lower Eastside', 'sex=Male') 1.1633%
+('neighbourhood=East Harlem', 'sex=Male') 1.1633%
+('neighbourhood=Rockaway', 'sex=Female') 1.1633%
+('neighbourhood=Bedford Stuyvesant - Crown Heights', 'sex=Male') 1.1633%
+('neighbourhood=Long Island City - Astoria', 'sex=Male') 1.1633%
+('neighbourhood=Lower Manhattan', 'sex=Female') 1.1633%
+('neighbourhood=Pelham - Throgs Neck', 'sex=Male') 1.1633%
+('neighbourhood=Ridgewood - Forest Hills', 'sex=Female') 1.1633%
+('neighbourhood=Fresh Meadows', 'sex=Male') 1.1633%
+('neighbourhood=Washington Heights - Inwood', 'sex=Male') 1.1633%
+('neighbourhood=Kingsbridge - Riverdale', 'sex=Male') 1.1633%
+('neighbourhood=Hunts Point - Mott Haven', 'sex=Male') 1.1633%
+('neighbourhood=High Bridge - Morrisania', 'sex=Female') 1.1633%
+('neighbourhood=Rockaway', 'sex=Male') 1.1633%
+('neighbourhood=South Beach - Tottenville', 'sex=Male') 1.1633%
+('neighbourhood=Downtown - Heights - Park Slope', 'sex=Female') 1.1633%
+('neighbourhood=East New York', 'sex=Male') 1.1633%
+('neighbourhood=Canarsie - Flatlands', 'sex=Female') 1.1633%
+('neighbourhood=Ridgewood - Forest Hills', 'sex=Male') 1.1633%
+('neighbourhood=Upper Eastside', 'sex=Female') 1.1633%
+('neighbourhood=Long Island City - Astoria', 'sex=Female') 1.1633%
+('neighbourhood=Williamsburg - Bushwick', 'sex=Male') 1.1633%
+('neighbourhood=East Harlem', 'sex=Female') 1.1633%
+('neighbourhood=Stapleton - St. George', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Stapleton - St. George', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Willowbrook', 'sex=Male', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Willowbrook', 'sex=Male', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Southwest Queens', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Greenpoint', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Greenpoint', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Chelsea - Clinton', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Chelsea - Clinton', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Flushing - Clearview', 'sex=Male', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Willowbrook', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Willowbrook', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Sunset Park', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=South Beach - Tottenville', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=South Beach - Tottenville', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Greenwich Village - SoHo', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Greenwich Village - SoHo', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Gramercy Park - Murray Hill', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Gramercy Park - Murray Hill', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Unknown', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Port Richmond', 'sex=Male', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Fresh Meadows', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Fresh Meadows', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Bayside - Little Neck', 'sex=Male', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Bayside - Little Neck', 'sex=Male', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Flushing - Clearview', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Flushing - Clearview', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Bensonhurst - Bay Ridge', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Bensonhurst - Bay Ridge', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Coney Island - Sheepshead Bay', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Borough Park', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Borough Park', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Kingsbridge - Riverdale', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Port Richmond', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Port Richmond', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Bayside - Little Neck', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Bayside - Little Neck', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Bensonhurst - Bay Ridge', 'sex=Male', 'total_aids_cases=Low') 1.1633%
+('ethnicity=Hispanic', 'total_aids_cases=Medium', 'total_hiv_cases=High') 1.1633%
+('ethnicity=Hispanic', 'sex=Female', 'total_hiv_cases=Medium') 1.1633%
+('neighbourhood=Lower Manhattan', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Lower Manhattan', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Ridgewood - Forest Hills', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Fresh Meadows', 'sex=Male', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Fresh Meadows', 'sex=Male', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Upper Eastside', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Upper Eastside', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Long Island City - Astoria', 'sex=Female', 'total_aids_cases=Low') 1.1633%
+('neighbourhood=Long Island City - Astoria', 'sex=Female', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Stapleton - St. George', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Willowbrook', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Greenpoint', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Chelsea - Clinton', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Willowbrook', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=South Beach - Tottenville', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Greenwich Village - SoHo', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Gramercy Park - Murray Hill', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Fresh Meadows', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Bayside - Little Neck', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Flushing - Clearview', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Bensonhurst - Bay Ridge', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Borough Park', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Port Richmond', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Bayside - Little Neck', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Lower Manhattan', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Fresh Meadows', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Upper Eastside', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Long Island City - Astoria', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1633%
+('neighbourhood=Greenpoint', 'sex=Male') 1.1217%
+('neighbourhood=Upper Westside', 'sex=Female', 'total_hiv_cases=Low') 1.1217%
+('neighbourhood=Union Square - Lower Eastside', 'sex=Female', 'total_hiv_cases=Low') 1.1217%
+('neighbourhood=Union Square - Lower Eastside', 'sex=Female', 'total_aids_cases=Low') 1.1217%
+('neighbourhood=Sunset Park', 'sex=Female', 'total_hiv_cases=Low') 1.1217%
+('neighbourhood=Coney Island - Sheepshead Bay', 'sex=Female', 'total_hiv_cases=Low') 1.1217%
+('neighbourhood=Kingsbridge - Riverdale', 'sex=Female', 'total_hiv_cases=Low') 1.1217%
+('ethnicity=Hispanic', 'sex=Male', 'total_hiv_cases=Medium') 1.1217%
+('neighbourhood=Lower Manhattan', 'sex=Male', 'total_aids_cases=Low') 1.1217%
+('neighbourhood=Ridgewood - Forest Hills', 'sex=Female', 'total_aids_cases=Low') 1.1217%
+('neighbourhood=South Beach - Tottenville', 'sex=Male', 'total_aids_cases=Low') 1.1217%
+('neighbourhood=South Beach - Tottenville', 'sex=Male', 'total_hiv_cases=Low') 1.1217%
+('neighbourhood=Sunset Park', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1217%
+('neighbourhood=Coney Island - Sheepshead Bay', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1217%
+('neighbourhood=Kingsbridge - Riverdale', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1217%
+('neighbourhood=Ridgewood - Forest Hills', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1217%
+('neighbourhood=South Beach - Tottenville', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.1217%
+('neighbourhood=Upper Westside', 'sex=Female', 'total_aids_cases=Low') 1.0802%
+('neighbourhood=Southwest Queens', 'sex=Female', 'total_hiv_cases=Low') 1.0802%
+('neighbourhood=Stapleton - St. George', 'sex=Male', 'total_aids_cases=Low') 1.0802%
+('neighbourhood=Port Richmond', 'sex=Male', 'total_hiv_cases=Low') 1.0802%
+('ethnicity=White', 'total_aids_cases=Medium', 'total_hiv_cases=High') 1.0802%
+('neighbourhood=Kingsbridge - Riverdale', 'sex=Male', 'total_aids_cases=Low') 1.0802%
+('ethnicity=Hispanic', 'sex=Female', 'total_aids_cases=Medium') 1.0802%
+('neighbourhood=Downtown - Heights - Park Slope', 'sex=Female', 'total_hiv_cases=Low') 1.0802%
+('neighbourhood=Southwest Queens', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.0802%
+('neighbourhood=Union Square - Lower Eastside', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.0802%
+('neighbourhood=Port Richmond', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.0802%
+('ethnicity=White', 'sex=Male', 'total_aids_cases=Medium', 'total_hiv_cases=High') 1.0802%
+('ethnicity=White', 'total_hiv_cases=Medium') 1.0386%
+('total_aids_cases=Medium', 'total_hiv_cases=Low') 1.0386%
+('neighbourhood=Coney Island - Sheepshead Bay', 'sex=Male', 'total_aids_cases=Low') 1.0386%
+('neighbourhood=Stapleton - St. George', 'sex=Male', 'total_hiv_cases=Low') 1.0386%
+('neighbourhood=Upper Eastside', 'sex=Male', 'total_aids_cases=Low') 1.0386%
+('neighbourhood=Bensonhurst - Bay Ridge', 'sex=Male', 'total_hiv_cases=Low') 1.0386%
+('neighbourhood=Southeast Queens', 'sex=Female', 'total_aids_cases=Low') 1.0386%
+('neighbourhood=Rockaway', 'sex=Female', 'total_hiv_cases=Low') 1.0386%
+('neighbourhood=Kingsbridge - Riverdale', 'sex=Male', 'total_hiv_cases=Low') 1.0386%
+('neighbourhood=Rockaway', 'sex=Male', 'total_aids_cases=Low') 1.0386%
+('neighbourhood=Downtown - Heights - Park Slope', 'sex=Female', 'total_aids_cases=Low') 1.0386%
+('neighbourhood=Upper Westside', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.0386%
+('neighbourhood=Bensonhurst - Bay Ridge', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.0386%
+('neighbourhood=Kingsbridge - Riverdale', 'sex=Male', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.0386%
+('neighbourhood=Downtown - Heights - Park Slope', 'sex=Female', 'total_aids_cases=Low', 'total_hiv_cases=Low') 1.0386%
+
+==High-confidence association rules (min_conf=70.0%)
+
+['ethnicity=Native American', => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:14.2916%)
+['ethnicity=Native American', => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:14.2916%)
+['ethnicity=Unknown', => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:14.2916%)
+['ethnicity=Unknown', => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:14.2916%)
+['neighbourhood=Willowbrook', => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Willowbrook', => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['ethnicity=Multiracial', => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:14.2916%)
+['neighbourhood=Flushing - Clearview', => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Port Richmond', => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Fresh Meadows', => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Fresh Meadows', => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Bayside - Little Neck', => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Bayside - Little Neck', => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Bensonhurst - Bay Ridge', => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['ethnicity=Native American', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Native American', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:14.2916%)
+['ethnicity=Native American', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:14.2916%)
+['neighbourhood=Stapleton - St. George', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Stapleton - St. George', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Native American', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Unknown', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:14.2916%)
+['ethnicity=Unknown', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:14.2916%)
+['ethnicity=Unknown', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Unknown', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Unknown', 'sex=Male' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['neighbourhood=Willowbrook', 'sex=Male' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Willowbrook', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Willowbrook', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Willowbrook', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Unknown', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['neighbourhood=East Flatbush - Flatbush', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.7034%)
+['neighbourhood=Southwest Queens', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Fordham - Bronx Park', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.6203%)
+['neighbourhood=Greenpoint', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Multiracial', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Multiracial', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['neighbourhood=Greenpoint', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Multiracial', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:14.2501%)
+['neighbourhood=Chelsea - Clinton', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Chelsea - Clinton', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Chelsea - Clinton', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.6618%)
+['ethnicity=Multiracial', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Asian/Pacific Islander', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:13.4607%)
+['neighbourhood=Flushing - Clearview', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Gramercy Park - Murray Hill', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.9111%)
+['neighbourhood=Crotona - Tremont', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.6618%)
+['neighbourhood=Crotona - Tremont', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.6618%)
+['neighbourhood=Willowbrook', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Willowbrook', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Jamaica', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.7449%)
+['ethnicity=Asian/Pacific Islander', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Asian/Pacific Islander', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['neighbourhood=Sunset Park', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=South Beach - Tottenville', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=South Beach - Tottenville', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=South Beach - Tottenville', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:2.285%)
+['neighbourhood=South Beach - Tottenville', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.285%)
+['neighbourhood=Greenwich Village - SoHo', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Greenwich Village - SoHo', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Native American', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Native American', 'sex=Male' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['neighbourhood=Gramercy Park - Murray Hill', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Gramercy Park - Murray Hill', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Port Richmond', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Port Richmond', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.2435%)
+['neighbourhood=Fresh Meadows', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Fresh Meadows', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Fresh Meadows', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Fresh Meadows', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Bayside - Little Neck', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bayside - Little Neck', 'sex=Male' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bayside - Little Neck', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Bayside - Little Neck', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.3265%)
+['neighbourhood=Flushing - Clearview', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.1188%)
+['neighbourhood=Flushing - Clearview', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Flushing - Clearview', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bensonhurst - Bay Ridge', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.2019%)
+['neighbourhood=Bensonhurst - Bay Ridge', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bensonhurst - Bay Ridge', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Coney Island - Sheepshead Bay', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Borough Park', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Borough Park', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Southeast Queens', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.9942%)
+['ethnicity=White', 'total_hiv_cases=High' => 'sex=Male',] (Conf: 100.0%, Supp:2.5343%)
+['neighbourhood=Kingsbridge - Riverdale', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.1604%)
+['neighbourhood=Kingsbridge - Riverdale', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=East New York', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.6203%)
+['neighbourhood=Washington Heights - Inwood', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.4956%)
+['neighbourhood=Hunts Point - Mott Haven', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.6618%)
+['neighbourhood=Port Richmond', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Port Richmond', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Lower Manhattan', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.1604%)
+['neighbourhood=Bayside - Little Neck', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bayside - Little Neck', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bensonhurst - Bay Ridge', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Williamsburg - Bushwick', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.5372%)
+['neighbourhood=Central Harlem - Morningside Heights', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.5372%)
+['neighbourhood=Lower Manhattan', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Lower Manhattan', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Ridgewood - Forest Hills', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=High Bridge - Morrisania', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.6618%)
+['neighbourhood=High Bridge - Morrisania', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.6618%)
+['neighbourhood=Fresh Meadows', 'sex=Male' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Fresh Meadows', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Canarsie - Flatlands', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.9111%)
+['neighbourhood=Long Island City - Astoria', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.7449%)
+['neighbourhood=Upper Eastside', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Upper Eastside', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:2.0357%)
+['neighbourhood=Upper Eastside', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Long Island City - Astoria', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Long Island City - Astoria', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Native American', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Native American', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['neighbourhood=Stapleton - St. George', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Stapleton - St. George', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Unknown', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Unknown', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['neighbourhood=Willowbrook', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Willowbrook', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Unknown', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Unknown', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['neighbourhood=Southwest Queens', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.0802%)
+['neighbourhood=Greenpoint', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Greenpoint', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Multiracial', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Multiracial', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['neighbourhood=Chelsea - Clinton', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Chelsea - Clinton', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Multiracial', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1043%)
+['ethnicity=Asian/Pacific Islander', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:6.3149%)
+['neighbourhood=Willowbrook', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Willowbrook', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Asian/Pacific Islander', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Asian/Pacific Islander', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=White', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.0212%)
+['ethnicity=White', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.0212%)
+['neighbourhood=Sunset Park', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1217%)
+['neighbourhood=South Beach - Tottenville', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=South Beach - Tottenville', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Greenwich Village - SoHo', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Greenwich Village - SoHo', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Native American', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['ethnicity=Native American', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:7.1458%)
+['neighbourhood=Gramercy Park - Murray Hill', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Gramercy Park - Murray Hill', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Port Richmond', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.0802%)
+['neighbourhood=Fresh Meadows', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Fresh Meadows', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bayside - Little Neck', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bayside - Little Neck', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Flushing - Clearview', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Flushing - Clearview', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bensonhurst - Bay Ridge', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bensonhurst - Bay Ridge', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Coney Island - Sheepshead Bay', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1217%)
+['neighbourhood=Borough Park', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Borough Park', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Kingsbridge - Riverdale', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1217%)
+['ethnicity=White', 'total_aids_cases=Medium', 'total_hiv_cases=High' => 'sex=Male',] (Conf: 100.0%, Supp:1.0802%)
+['neighbourhood=Port Richmond', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Port Richmond', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bayside - Little Neck', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bayside - Little Neck', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Bensonhurst - Bay Ridge', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.0386%)
+['neighbourhood=Lower Manhattan', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Lower Manhattan', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Ridgewood - Forest Hills', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1217%)
+['neighbourhood=Fresh Meadows', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Fresh Meadows', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Kingsbridge - Riverdale', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.0386%)
+['neighbourhood=South Beach - Tottenville', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1217%)
+['neighbourhood=South Beach - Tottenville', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1217%)
+['neighbourhood=Downtown - Heights - Park Slope', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.0386%)
+['neighbourhood=Upper Eastside', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Upper Eastside', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Long Island City - Astoria', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['neighbourhood=Long Island City - Astoria', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 100.0%, Supp:1.1633%)
+['ethnicity=Multiracial', => 'total_hiv_cases=Low',] (Conf: 99.7093%, Supp:14.2916%)
+['ethnicity=Multiracial', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 99.7093%, Supp:14.2916%)
+['ethnicity=Multiracial', 'sex=Male' => 'total_hiv_cases=Low',] (Conf: 99.4186%, Supp:7.1458%)
+['ethnicity=Multiracial', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 99.4186%, Supp:7.1458%)
+['ethnicity=White', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 98.8372%, Supp:10.7187%)
+['sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 98.7896%, Supp:44.6199%)
+['total_hiv_cases=Low', => 'total_aids_cases=Low',] (Conf: 98.7053%, Supp:80.2243%)
+['sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 98.5998%, Supp:35.6045%)
+['ethnicity=Hispanic', 'sex=Male', 'total_aids_cases=High' => 'total_hiv_cases=High',] (Conf: 98.5507%, Supp:2.8666%)
+['ethnicity=Asian/Pacific Islander', => 'total_aids_cases=Low',] (Conf: 98.2558%, Supp:14.2916%)
+['ethnicity=White', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 98.2558%, Supp:7.1458%)
+['ethnicity=White', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 98.2558%, Supp:7.1458%)
+['neighbourhood=South Beach - Tottenville', => 'total_hiv_cases=Low',] (Conf: 98.2143%, Supp:2.3265%)
+['neighbourhood=South Beach - Tottenville', => 'total_aids_cases=Low',] (Conf: 98.2143%, Supp:2.3265%)
+['neighbourhood=Lower Manhattan', => 'total_aids_cases=Low',] (Conf: 98.2143%, Supp:2.3265%)
+['neighbourhood=Stapleton - St. George', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 98.1132%, Supp:2.2019%)
+['neighbourhood=Southeast Queens', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 97.9592%, Supp:2.0357%)
+['neighbourhood=Greenpoint', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 97.8723%, Supp:1.9526%)
+['neighbourhood=Borough Park', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 97.8723%, Supp:1.9526%)
+['neighbourhood=Rockaway', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 97.8723%, Supp:1.9526%)
+['neighbourhood=Canarsie - Flatlands', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 97.8723%, Supp:1.9526%)
+['sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 97.788%, Supp:45.0769%)
+['neighbourhood=Southwest Queens', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 97.7273%, Supp:1.828%)
+['neighbourhood=Upper Westside', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 97.619%, Supp:1.7449%)
+['neighbourhood=Downtown - Heights - Park Slope', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 97.619%, Supp:1.7449%)
+['neighbourhood=Union Square - Lower Eastside', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 97.561%, Supp:1.7034%)
+['neighbourhood=Hunts Point - Mott Haven', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 97.561%, Supp:1.7034%)
+['neighbourhood=Fordham - Bronx Park', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 97.5%, Supp:1.6618%)
+['neighbourhood=Bedford Stuyvesant - Crown Heights', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 97.4359%, Supp:1.6203%)
+['neighbourhood=Pelham - Throgs Neck', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 97.4359%, Supp:1.6203%)
+['neighbourhood=Pelham - Throgs Neck', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 97.4359%, Supp:1.6203%)
+['neighbourhood=West Queens', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 97.1429%, Supp:1.4541%)
+['total_aids_cases=Low', 'total_hiv_cases=High' => 'sex=Male',] (Conf: 96.9697%, Supp:1.371%)
+['ethnicity=White', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 96.6292%, Supp:3.6975%)
+['neighbourhood=Unknown', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 96.5517%, Supp:1.2048%)
+['ethnicity=Asian/Pacific Islander', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 96.5116%, Supp:7.1458%)
+['neighbourhood=Stapleton - St. George', => 'total_aids_cases=Low',] (Conf: 96.4286%, Supp:2.3265%)
+['neighbourhood=Port Richmond', => 'total_hiv_cases=Low',] (Conf: 96.4286%, Supp:2.3265%)
+['neighbourhood=Kingsbridge - Riverdale', => 'total_aids_cases=Low',] (Conf: 96.4286%, Supp:2.3265%)
+['neighbourhood=Upper Westside', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=Union Square - Lower Eastside', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=Union Square - Lower Eastside', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['ethnicity=Hispanic', 'total_aids_cases=High' => 'total_hiv_cases=High',] (Conf: 96.4286%, Supp:3.4898%)
+['neighbourhood=Sunset Park', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=Port Richmond', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 96.4286%, Supp:2.3265%)
+['neighbourhood=Coney Island - Sheepshead Bay', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=Kingsbridge - Riverdale', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=Lower Manhattan', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=Ridgewood - Forest Hills', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=South Beach - Tottenville', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=South Beach - Tottenville', 'sex=Male' => 'total_hiv_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=Sunset Park', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=Coney Island - Sheepshead Bay', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=Kingsbridge - Riverdale', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=Ridgewood - Forest Hills', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 96.4286%, Supp:1.1633%)
+['neighbourhood=Stapleton - St. George', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 96.2963%, Supp:2.2435%)
+['neighbourhood=Kingsbridge - Riverdale', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 96.2963%, Supp:2.2435%)
+['neighbourhood=Union Square - Lower Eastside', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 96.2963%, Supp:1.1217%)
+['neighbourhood=Union Square - Lower Eastside', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 96.2963%, Supp:1.1217%)
+['neighbourhood=Upper Westside', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 96.1538%, Supp:1.0802%)
+['ethnicity=Black', 'sex=Female', 'total_aids_cases=High' => 'total_hiv_cases=High',] (Conf: 96.1538%, Supp:2.1604%)
+['neighbourhood=Kingsbridge - Riverdale', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 96.1538%, Supp:1.0802%)
+['neighbourhood=Downtown - Heights - Park Slope', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 96.1538%, Supp:1.0802%)
+['sex=Male', 'total_aids_cases=High' => 'total_hiv_cases=High',] (Conf: 96.1111%, Supp:7.4782%)
+['neighbourhood=Sunset Park', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 96.0784%, Supp:2.1188%)
+['neighbourhood=Sunset Park', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 96.0784%, Supp:2.1188%)
+['neighbourhood=Ridgewood - Forest Hills', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 96.0%, Supp:2.0773%)
+['ethnicity=Asian/Pacific Islander', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 95.858%, Supp:14.0424%)
+['neighbourhood=Greenwich Village - SoHo', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 95.8333%, Supp:1.9942%)
+['neighbourhood=Coney Island - Sheepshead Bay', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 95.7447%, Supp:1.9526%)
+['total_aids_cases=High', => 'total_hiv_cases=High',] (Conf: 95.5466%, Supp:10.2617%)
+['neighbourhood=Upper Westside', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 95.3488%, Supp:1.7865%)
+['neighbourhood=Downtown - Heights - Park Slope', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 95.3488%, Supp:1.7865%)
+['neighbourhood=Northeast Bronx', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 95.3488%, Supp:1.7865%)
+['neighbourhood=Northeast Bronx', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 95.3488%, Supp:1.7865%)
+['neighbourhood=Bedford Stuyvesant - Crown Heights', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 95.0%, Supp:1.6618%)
+['ethnicity=Black', 'total_aids_cases=High' => 'total_hiv_cases=High',] (Conf: 94.9275%, Supp:5.7333%)
+['neighbourhood=East Harlem', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 94.8718%, Supp:1.6203%)
+['ethnicity=Black', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 94.7368%, Supp:3.9468%)
+['neighbourhood=Stapleton - St. George', => 'total_hiv_cases=Low',] (Conf: 94.6429%, Supp:2.3265%)
+['neighbourhood=Coney Island - Sheepshead Bay', => 'total_aids_cases=Low',] (Conf: 94.6429%, Supp:2.3265%)
+['neighbourhood=Bensonhurst - Bay Ridge', => 'total_hiv_cases=Low',] (Conf: 94.6429%, Supp:2.3265%)
+['neighbourhood=Upper Eastside', => 'total_aids_cases=Low',] (Conf: 94.6429%, Supp:2.3265%)
+['neighbourhood=Bensonhurst - Bay Ridge', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 94.6429%, Supp:2.3265%)
+['neighbourhood=Lower Manhattan', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 94.5455%, Supp:2.285%)
+['total_aids_cases=Low', => 'total_hiv_cases=Low',] (Conf: 94.45%, Supp:83.8388%)
+['ethnicity=Asian/Pacific Islander', => 'total_hiv_cases=Low',] (Conf: 94.186%, Supp:14.2916%)
+['ethnicity=Black', 'sex=Male', 'total_aids_cases=High' => 'total_hiv_cases=High',] (Conf: 94.186%, Supp:3.5729%)
+['neighbourhood=Ridgewood - Forest Hills', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 94.1176%, Supp:2.1188%)
+['sex=Female', 'total_aids_cases=High' => 'total_hiv_cases=High',] (Conf: 94.0299%, Supp:2.7835%)
+['neighbourhood=Gramercy Park - Murray Hill', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 93.8776%, Supp:2.0357%)
+['neighbourhood=Rockaway', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 93.8776%, Supp:2.0357%)
+['ethnicity=Hispanic', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 93.4426%, Supp:5.0686%)
+['ethnicity=Black', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 93.3775%, Supp:6.2734%)
+['neighbourhood=Jamaica', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 93.3333%, Supp:1.8695%)
+['neighbourhood=East Flatbush - Flatbush', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 93.1818%, Supp:1.828%)
+['neighbourhood=Chelsea - Clinton', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 93.0233%, Supp:1.7865%)
+['neighbourhood=Kingsbridge - Riverdale', => 'total_hiv_cases=Low',] (Conf: 92.8571%, Supp:2.3265%)
+['neighbourhood=Lower Manhattan', => 'total_hiv_cases=Low',] (Conf: 92.8571%, Supp:2.3265%)
+['neighbourhood=Upper Westside', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 92.8571%, Supp:1.1633%)
+['neighbourhood=Southwest Queens', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 92.8571%, Supp:1.1633%)
+['neighbourhood=Stapleton - St. George', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 92.8571%, Supp:1.1633%)
+['neighbourhood=Port Richmond', 'sex=Male' => 'total_hiv_cases=Low',] (Conf: 92.8571%, Supp:1.1633%)
+['neighbourhood=East New York', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 92.8571%, Supp:1.7449%)
+['neighbourhood=Kingsbridge - Riverdale', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 92.8571%, Supp:1.1633%)
+['neighbourhood=Downtown - Heights - Park Slope', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 92.8571%, Supp:1.1633%)
+['neighbourhood=Southwest Queens', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 92.8571%, Supp:1.1633%)
+['neighbourhood=Port Richmond', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 92.8571%, Supp:1.1633%)
+['ethnicity=Hispanic', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 92.8144%, Supp:6.9381%)
+['ethnicity=Black', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 92.7835%, Supp:4.0299%)
+['neighbourhood=Greenpoint', => 'total_aids_cases=Low',] (Conf: 92.7273%, Supp:2.285%)
+['neighbourhood=Upper Westside', 'sex=Female', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 92.5926%, Supp:1.1217%)
+['neighbourhood=Williamsburg - Bushwick', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 92.5%, Supp:1.6618%)
+['neighbourhood=Central Harlem - Morningside Heights', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 92.5%, Supp:1.6618%)
+['neighbourhood=East Harlem', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 92.5%, Supp:1.6618%)
+['neighbourhood=Upper Eastside', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 92.4528%, Supp:2.2019%)
+['neighbourhood=Washington Heights - Inwood', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 92.3077%, Supp:1.6203%)
+['neighbourhood=Greenwich Village - SoHo', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 92.0%, Supp:2.0773%)
+['neighbourhood=West Queens', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 91.8919%, Supp:1.5372%)
+['ethnicity=White', 'total_aids_cases=Medium' => 'sex=Male',] (Conf: 91.8919%, Supp:1.5372%)
+['ethnicity=Asian/Pacific Islander', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 91.5663%, Supp:6.8966%)
+['ethnicity=Hispanic', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 91.1111%, Supp:1.8695%)
+['neighbourhood=Borough Park', => 'total_aids_cases=Low',] (Conf: 91.0714%, Supp:2.3265%)
+['neighbourhood=Sunset Park', => 'total_hiv_cases=Low',] (Conf: 91.0714%, Supp:2.3265%)
+['neighbourhood=Sunset Park', => 'total_aids_cases=Low',] (Conf: 91.0714%, Supp:2.3265%)
+['neighbourhood=Flushing - Clearview', => 'total_hiv_cases=Low',] (Conf: 91.0714%, Supp:2.3265%)
+['neighbourhood=Ridgewood - Forest Hills', => 'total_aids_cases=Low',] (Conf: 91.0714%, Supp:2.3265%)
+['neighbourhood=Flushing - Clearview', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 91.0714%, Supp:2.3265%)
+['ethnicity=Black', 'sex=Male', 'total_hiv_cases=Low' => 'total_aids_cases=Low',] (Conf: 91.0714%, Supp:2.3265%)
+['neighbourhood=Union Square - Lower Eastside', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 90.9091%, Supp:1.828%)
+['sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 90.5681%, Supp:38.7619%)
+['neighbourhood=Unknown', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 90.3226%, Supp:1.2879%)
+['neighbourhood=Greenpoint', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 90.1961%, Supp:2.1188%)
+['neighbourhood=Borough Park', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 90.1961%, Supp:2.1188%)
+['sex=Female', => 'total_aids_cases=Low',] (Conf: 90.1163%, Supp:50.0208%)
+['ethnicity=White', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 90.106%, Supp:11.7574%)
+['neighbourhood=Long Island City - Astoria', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 89.3617%, Supp:1.9526%)
+['neighbourhood=Southwest Queens', => 'total_aids_cases=Low',] (Conf: 89.2857%, Supp:2.3265%)
+['neighbourhood=Greenwich Village - SoHo', => 'total_aids_cases=Low',] (Conf: 89.2857%, Supp:2.3265%)
+['neighbourhood=Ridgewood - Forest Hills', => 'total_hiv_cases=Low',] (Conf: 89.2857%, Supp:2.3265%)
+['neighbourhood=Coney Island - Sheepshead Bay', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 89.2857%, Supp:1.1633%)
+['neighbourhood=Stapleton - St. George', 'sex=Male' => 'total_hiv_cases=Low',] (Conf: 89.2857%, Supp:1.1633%)
+['neighbourhood=Upper Eastside', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 89.2857%, Supp:1.1633%)
+['neighbourhood=Bensonhurst - Bay Ridge', 'sex=Male' => 'total_hiv_cases=Low',] (Conf: 89.2857%, Supp:1.1633%)
+['neighbourhood=Southeast Queens', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 89.2857%, Supp:1.1633%)
+['neighbourhood=Rockaway', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 89.2857%, Supp:1.1633%)
+['neighbourhood=Kingsbridge - Riverdale', 'sex=Male' => 'total_hiv_cases=Low',] (Conf: 89.2857%, Supp:1.1633%)
+['neighbourhood=Rockaway', 'sex=Male' => 'total_aids_cases=Low',] (Conf: 89.2857%, Supp:1.1633%)
+['neighbourhood=Downtown - Heights - Park Slope', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 89.2857%, Supp:1.1633%)
+['neighbourhood=Bensonhurst - Bay Ridge', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 89.2857%, Supp:1.1633%)
+['sex=Female', => 'total_hiv_cases=Low',] (Conf: 89.2027%, Supp:50.0208%)
+['ethnicity=Asian/Pacific Islander', 'sex=Male' => 'total_hiv_cases=Low',] (Conf: 88.3721%, Supp:7.1458%)
+['neighbourhood=Gramercy Park - Murray Hill', => 'total_aids_cases=Low',] (Conf: 87.5%, Supp:2.3265%)
+['neighbourhood=Southeast Queens', => 'total_aids_cases=Low',] (Conf: 87.5%, Supp:2.3265%)
+['neighbourhood=Rockaway', => 'total_aids_cases=Low',] (Conf: 87.5%, Supp:2.3265%)
+['neighbourhood=Upper Eastside', => 'total_hiv_cases=Low',] (Conf: 87.5%, Supp:2.3265%)
+['ethnicity=Hispanic', 'sex=Female', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 87.0229%, Supp:5.4425%)
+['ethnicity=Black', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 86.5031%, Supp:6.7719%)
+['neighbourhood=Southwest Queens', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 86.0%, Supp:2.0773%)
+['neighbourhood=Greenwich Village - SoHo', => 'total_hiv_cases=Low',] (Conf: 85.7143%, Supp:2.3265%)
+['neighbourhood=Southeast Queens', => 'total_hiv_cases=Low',] (Conf: 85.7143%, Supp:2.3265%)
+['neighbourhood=Greenpoint', => 'total_hiv_cases=Low',] (Conf: 85.4545%, Supp:2.285%)
+['neighbourhood=Coney Island - Sheepshead Bay', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 84.9057%, Supp:2.2019%)
+['ethnicity=Black', 'sex=Male', 'total_hiv_cases=High' => 'total_aids_cases=High',] (Conf: 84.375%, Supp:3.9884%)
+['ethnicity=Hispanic', 'total_aids_cases=High', 'total_hiv_cases=High' => 'sex=Male',] (Conf: 83.9506%, Supp:3.3652%)
+['neighbourhood=Coney Island - Sheepshead Bay', => 'total_hiv_cases=Low',] (Conf: 83.9286%, Supp:2.3265%)
+['neighbourhood=Borough Park', => 'total_hiv_cases=Low',] (Conf: 83.9286%, Supp:2.3265%)
+['neighbourhood=Canarsie - Flatlands', => 'total_aids_cases=Low',] (Conf: 83.9286%, Supp:2.3265%)
+['neighbourhood=Rockaway', => 'total_hiv_cases=Low',] (Conf: 83.9286%, Supp:2.3265%)
+['neighbourhood=Long Island City - Astoria', => 'total_aids_cases=Low',] (Conf: 83.9286%, Supp:2.3265%)
+['ethnicity=Black', 'total_hiv_cases=High' => 'total_aids_cases=High',] (Conf: 83.4395%, Supp:6.5226%)
+['ethnicity=White', => 'total_aids_cases=Low',] (Conf: 82.2674%, Supp:14.2916%)
+['neighbourhood=Gramercy Park - Murray Hill', => 'total_hiv_cases=Low',] (Conf: 82.1429%, Supp:2.3265%)
+['neighbourhood=Canarsie - Flatlands', => 'total_hiv_cases=Low',] (Conf: 82.1429%, Supp:2.3265%)
+['ethnicity=Hispanic', 'total_aids_cases=High' => 'sex=Male',] (Conf: 82.1429%, Supp:3.4898%)
+['ethnicity=Hispanic', 'total_hiv_cases=High' => 'sex=Male',] (Conf: 81.9672%, Supp:5.0686%)
+['ethnicity=Black', 'sex=Female', 'total_hiv_cases=High' => 'total_aids_cases=High',] (Conf: 81.9672%, Supp:2.5343%)
+['neighbourhood=Jamaica', => 'total_aids_cases=Low',] (Conf: 80.3571%, Supp:2.3265%)
+['sex=Female', 'total_aids_cases=High', 'total_hiv_cases=High' => 'ethnicity=Black',] (Conf: 79.3651%, Supp:2.6174%)
+['neighbourhood=East Flatbush - Flatbush', => 'total_aids_cases=Low',] (Conf: 78.5714%, Supp:2.3265%)
+['neighbourhood=Southwest Queens', => 'total_hiv_cases=Low',] (Conf: 78.5714%, Supp:2.3265%)
+['neighbourhood=Union Square - Lower Eastside', => 'total_aids_cases=Low',] (Conf: 78.5714%, Supp:2.3265%)
+['sex=Female', 'total_aids_cases=High' => 'ethnicity=Black',] (Conf: 77.6119%, Supp:2.7835%)
+['sex=Male', => 'total_aids_cases=Low',] (Conf: 77.5561%, Supp:49.9792%)
+['ethnicity=Black', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 77.2727%, Supp:2.742%)
+['neighbourhood=Upper Westside', => 'total_hiv_cases=Low',] (Conf: 76.7857%, Supp:2.3265%)
+['neighbourhood=Chelsea - Clinton', => 'total_aids_cases=Low',] (Conf: 76.7857%, Supp:2.3265%)
+['neighbourhood=Downtown - Heights - Park Slope', => 'total_aids_cases=Low',] (Conf: 76.7857%, Supp:2.3265%)
+['neighbourhood=Northeast Bronx', => 'total_hiv_cases=Low',] (Conf: 76.7857%, Supp:2.3265%)
+['neighbourhood=Northeast Bronx', => 'total_aids_cases=Low',] (Conf: 76.7857%, Supp:2.3265%)
+['ethnicity=Hispanic', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 76.7327%, Supp:8.3922%)
+['ethnicity=White', 'sex=Male', 'total_aids_cases=Medium' => 'total_hiv_cases=High',] (Conf: 76.4706%, Supp:1.4125%)
+['ethnicity=Hispanic', 'sex=Female' => 'total_aids_cases=Low',] (Conf: 76.1628%, Supp:7.1458%)
+['sex=Female', 'total_hiv_cases=High' => 'total_aids_cases=High',] (Conf: 75.9036%, Supp:3.4483%)
+['total_hiv_cases=High', => 'sex=Male',] (Conf: 75.8721%, Supp:14.2916%)
+['ethnicity=White', 'sex=Male', 'total_aids_cases=Low' => 'total_hiv_cases=Low',] (Conf: 75.4386%, Supp:4.7362%)
+['neighbourhood=Upper Westside', => 'total_aids_cases=Low',] (Conf: 75.0%, Supp:2.3265%)
+['neighbourhood=Jamaica', => 'total_hiv_cases=Low',] (Conf: 75.0%, Supp:2.3265%)
+['ethnicity=White', => 'total_hiv_cases=Low',] (Conf: 75.0%, Supp:14.2916%)
+['neighbourhood=Downtown - Heights - Park Slope', => 'total_hiv_cases=Low',] (Conf: 75.0%, Supp:2.3265%)
+['neighbourhood=East New York', => 'total_aids_cases=Low',] (Conf: 75.0%, Supp:2.3265%)
+['neighbourhood=Long Island City - Astoria', => 'total_hiv_cases=Low',] (Conf: 75.0%, Supp:2.3265%)
+['total_aids_cases=Medium', 'total_hiv_cases=High' => 'sex=Male',] (Conf: 74.6667%, Supp:3.1159%)
+['ethnicity=Hispanic', 'total_aids_cases=Low', 'total_hiv_cases=Low' => 'sex=Female',] (Conf: 73.5484%, Supp:6.4396%)
+['sex=Female', 'total_hiv_cases=High' => 'ethnicity=Black',] (Conf: 73.494%, Supp:3.4483%)
+['total_aids_cases=High', 'total_hiv_cases=High' => 'sex=Male',] (Conf: 73.3051%, Supp:9.8047%)
+['neighbourhood=East Flatbush - Flatbush', => 'total_hiv_cases=Low',] (Conf: 73.2143%, Supp:2.3265%)
+['neighbourhood=Union Square - Lower Eastside', => 'total_hiv_cases=Low',] (Conf: 73.2143%, Supp:2.3265%)
+['neighbourhood=Hunts Point - Mott Haven', => 'total_aids_cases=Low',] (Conf: 73.2143%, Supp:2.3265%)
+['ethnicity=Hispanic', 'total_hiv_cases=Low' => 'sex=Female',] (Conf: 73.0539%, Supp:6.9381%)
+['total_aids_cases=High', => 'sex=Male',] (Conf: 72.8745%, Supp:10.2617%)
+['neighbourhood=Fordham - Bronx Park', => 'total_aids_cases=Low',] (Conf: 71.4286%, Supp:2.3265%)
+['neighbourhood=Chelsea - Clinton', => 'total_hiv_cases=Low',] (Conf: 71.4286%, Supp:2.3265%)
+['neighbourhood=Crotona - Tremont', => 'total_aids_cases=Low',] (Conf: 71.4286%, Supp:2.3265%)
+['neighbourhood=Crotona - Tremont', => 'total_hiv_cases=Low',] (Conf: 71.4286%, Supp:2.3265%)
+['neighbourhood=Bedford Stuyvesant - Crown Heights', => 'total_aids_cases=Low',] (Conf: 71.4286%, Supp:2.3265%)
+['neighbourhood=Hunts Point - Mott Haven', => 'total_hiv_cases=Low',] (Conf: 71.4286%, Supp:2.3265%)
+['neighbourhood=Williamsburg - Bushwick', => 'total_aids_cases=Low',] (Conf: 71.4286%, Supp:2.3265%)
+['neighbourhood=Central Harlem - Morningside Heights', => 'total_aids_cases=Low',] (Conf: 71.4286%, Supp:2.3265%)
+['neighbourhood=High Bridge - Morrisania', => 'total_hiv_cases=Low',] (Conf: 71.4286%, Supp:2.3265%)
+['neighbourhood=High Bridge - Morrisania', => 'total_aids_cases=Low',] (Conf: 71.4286%, Supp:2.3265%)
+['neighbourhood=East Harlem', => 'total_aids_cases=Low',] (Conf: 71.4286%, Supp:2.3265%)
+['sex=Male', => 'total_hiv_cases=Low',] (Conf: 71.2386%, Supp:49.9792%)
+['ethnicity=Hispanic', 'sex=Female' => 'total_hiv_cases=Low',] (Conf: 70.9302%, Supp:7.1458%)
+['total_aids_cases=Low', 'total_hiv_cases=Medium' => 'sex=Male',] (Conf: 70.8861%, Supp:3.2821%)
+['ethnicity=White', 'total_aids_cases=Medium' => 'total_hiv_cases=High',] (Conf: 70.2703%, Supp:1.5372%)
+['neighbourhood=Chelsea - Clinton', 'total_hiv_cases=Low' => 'sex=Female',] (Conf: 70.0%, Supp:1.6618%)
+['neighbourhood=Chelsea - Clinton', 'total_aids_cases=Low', 'total_hiv_cases=Low' => 'sex=Female',] (Conf: 70.0%, Supp:1.6618%)
